@@ -10,7 +10,7 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  const homePage = [{ message: "Express :)" }];
+  const homePage = [{ message: "Cost_Manager Server Side Project By Omer & Bar" }];
   res.setHeader("Content-Type", "application/json");
   res.end(JSON.stringify(homePage));
 });
