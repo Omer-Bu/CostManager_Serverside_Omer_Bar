@@ -6,16 +6,6 @@
 // when a GET request is made to the root path (/).
 
 
-// const express = require("express");
-// const router = express.Router();
-
-// router.get("/",(req,res)=>{
-//     // Json format
-//     const homePage =[{ message:"Express :)"} ]
-//     res.json(homePage)
-// })
-//  module.exports = router;
-
 const express = require("express");
 const router = express.Router();
 
